@@ -2,8 +2,6 @@ body.light {
   background-color: #f8fafc;
   color: #1f2937;
 }
-
-/* Dark Theme */
 body.dark {
   background: linear-gradient(45deg, #111827 0%, #1f2937 50%, #1e3a8a 100%);
   color: #f9fafb;
@@ -13,31 +11,29 @@ body.dark {
   font-size: 20px;
   width: 45px;
   height: 45px;
-  background-color: #ff9f1c; /* Orange background */
+  background-color: #ff9f1c;
   border-radius: 50%;
-  border: 2px solid #ffbf69; /* Light orange border */
+  border: 2px solid #ffbf69;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  box-shadow: 0 0 15px rgba(255, 159, 28, 0.5); /* Orange glow effect */
-  color: #1f2937; /* Dark text color for contrast */
+  box-shadow: 0 0 15px rgba(255, 159, 28, 0.5);
+  color: #1f2937;
 }
 
 /* Hover Effect */
 .theme-toggle:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(255, 159, 28, 0.7); /* Stronger glow on hover */
+  box-shadow: 0 0 20px rgba(255, 159, 28, 0.7);
 }
 
-/* Light Mode Toggle */
 body.light .theme-toggle {
   background-color: #ff9f1c;
   color: #1f2937;
 }
 
-/* Dark Mode Toggle */
 body.dark .theme-toggle {
   background-color: #ff9f1c;
   color: #1f2937;

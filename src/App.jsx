@@ -16,31 +16,26 @@ const App = () => {
           let style = {};
 
           if (i < 4) {
-            // top-left
             style = {
               left: Math.random() * 20 + "%",
               top: Math.random() * 20 + "%",
             };
           } else if (i < 8) {
-            // top-right
             style = {
               left: 75 + Math.random() * 20 + "%",
               top: Math.random() * 20 + "%",
             };
           } else if (i < 12) {
-            // intro center
             style = {
               left: 35 + Math.random() * 30 + "%",
               top: 20 + Math.random() * 25 + "%",
             };
           } else if (i < 16) {
-            // tech stack left
             style = {
               left: Math.random() * 40 + "%",
               top: 50 + Math.random() * 20 + "%",
             };
           } else {
-            // tech stack / projects right
             style = {
               left: 60 + Math.random() * 30 + "%",
               top: 50 + Math.random() * 30 + "%",
