@@ -26,8 +26,8 @@ const Projects = () => {
           </div>
 
           <div className="project-buttons">
-            <a href="#" className="btn code">📄 Code</a>
-            <a href="#" className="btn live">🔗 Live</a>
+            <a href="https://github.com/Satvik1704/Serverless_weather-application" className="btn code">📄 Code</a>
+            <a href="http://weather-react-serverless.s3-website-us-east-1.amazonaws.com/" className="btn live">🔗 Live</a>
           </div>
         </div>
 
@@ -51,8 +51,8 @@ const Projects = () => {
           </div>
 
           <div className="project-buttons">
-            <a href="https://github.com/Satvik1704/Serverless_weather-application" className="btn code">📄 Code</a>
-            <a href="http://weather-react-serverless.s3-website-us-east-1.amazonaws.com/" className="btn live">🔗 Live</a>
+            <a href="#" className="btn code">📄 Code</a>
+            <a href="#" className="btn live">🔗 Live</a>
           </div>
         </div>
 
